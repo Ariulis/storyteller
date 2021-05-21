@@ -1,0 +1,429 @@
+{
+  "header": {
+    "bg": {
+      "src": "../static/images/common/top_bg.jpg",
+      "alt": "header bg image"
+    },
+    "title": "storyteller",
+    "text": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.",
+    "link": {
+      "title": "read the rest",
+      "url": "#"
+    }
+  },
+  "why": {
+    "icon": "icon-broccoli",
+    "title": "Who & Why",
+    "text": "The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the evening. But Gregor found it easy to give up having the door open, he had, after all, often failed to make use of it when it was open and, without the family having noticed it, lain in his room in its darkest corner. One time, though, the charwoman left the door."
+  },
+  "features": [
+    {
+      "icon": "icon-clock",
+      "title": "An Wow Feature",
+      "text": "The gentlemen who rented the room would sometimes take their evening meal at home in the living."
+    },
+    {
+      "icon": "icon-land-working",
+      "title": "A Beautiful Feature",
+      "text": "The gentlemen who rented the room would sometimes take their evening meal at home in the living."
+    },
+    {
+      "icon": "icon-vector",
+      "title": "An Amazing Feature",
+      "text": "The gentlemen who rented the room would sometimes take their evening meal at home in the living."
+    }
+  ],
+  "articles": {
+    "title": "Featured Articles",
+    "text": "The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the",
+    "slider": [
+      {
+        "categories": "comic",
+        "excerpt": "A million ways to die in the wild wild wild west",
+        "info": {
+          "photo": "../static/images/content/articles/01.png",
+          "name": "jimmy jefferson",
+          "date": "21/08/2020"
+        }
+      },
+      {
+        "categories": "lifestyle",
+        "excerpt": "The most comfortable chair comes with no backpain",
+        "info": {
+          "photo": "../static/images/content/articles/02.png",
+          "name": "Gail Gutierrez",
+          "date": "21/08/2020"
+        }
+      },
+      {
+        "categories": "travel",
+        "excerpt": "journey to the center of the earth with jefferson ",
+        "info": {
+          "photo": "../static/images/content/articles/03.png",
+          "name": "mason johnston",
+          "date": "21/08/2020"
+        }
+      },
+      {
+        "categories": "comic",
+        "excerpt": "A million ways to die in the wild wild wild west",
+        "info": {
+          "photo": "../static/images/content/articles/01.png",
+          "name": "jimmy jefferson",
+          "date": "21/08/2020"
+        }
+      },
+      {
+        "categories": "lifestyle",
+        "excerpt": "The most comfortable chair comes with no backpain",
+        "info": {
+          "photo": "../static/images/content/articles/02.png",
+          "name": "Gail Gutierrez",
+          "date": "21/08/2020"
+        }
+      },
+      {
+        "categories": "travel",
+        "excerpt": "journey to the center of the earth with jefferson ",
+        "info": {
+          "photo": "../static/images/content/articles/03.png",
+          "name": "mason johnston",
+          "date": "21/08/2020"
+        }
+      },
+      {
+        "categories": "comic",
+        "excerpt": "A million ways to die in the wild wild wild west",
+        "info": {
+          "photo": "../static/images/content/articles/01.png",
+          "name": "jimmy jefferson",
+          "date": "21/08/2020"
+        }
+      },
+      {
+        "categories": "lifestyle",
+        "excerpt": "The most comfortable chair comes with no backpain",
+        "info": {
+          "photo": "../static/images/content/articles/02.png",
+          "name": "Gail Gutierrez",
+          "date": "21/08/2020"
+        }
+      },
+      {
+        "categories": "travel",
+        "excerpt": "journey to the center of the earth with jefferson ",
+        "info": {
+          "photo": "../static/images/content/articles/03.png",
+          "name": "mason johnston",
+          "date": "21/08/2020"
+        }
+      }
+    ]
+  },
+  "clients": {
+    "title": "Clients",
+    "slider": [
+      { "img": "../static/images/content/clients/01.png" },
+      { "img": "../static/images/content/clients/02.png" },
+      { "img": "../static/images/content/clients/03.png" },
+      { "img": "../static/images/content/clients/04.png" },
+      { "img": "../static/images/content/clients/05.png" },
+      { "img": "../static/images/content/clients/06.png" },
+      { "img": "../static/images/content/clients/01.png" },
+      { "img": "../static/images/content/clients/02.png" },
+      { "img": "../static/images/content/clients/03.png" },
+      { "img": "../static/images/content/clients/04.png" },
+      { "img": "../static/images/content/clients/05.png" },
+      { "img": "../static/images/content/clients/06.png" }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio & Screenshots",
+    "text": "The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the.",
+    "filter": [
+      { "title": "Art", "dataFilter": "all", "isActive": true },
+      { "title": "Mystery", "dataFilter": "mystery", "isActive": false },
+      { "title": "Illusion", "dataFilter": "illusion", "isActive": false },
+      { "title": "Travel", "dataFilter": "travel", "isActive": false },
+      { "title": "Paintings", "dataFilter": "paintings", "isActive": false }
+    ],
+    "slider": [
+      {
+        "src": "../static/images/content/portfolio/01.jpg",
+        "dataFilter": "mystery"
+      },
+      {
+        "src": "../static/images/content/portfolio/02.jpg",
+        "dataFilter": "illusion"
+      },
+      {
+        "src": "../static/images/content/portfolio/03.jpg",
+        "dataFilter": "travel"
+      },
+      {
+        "src": "../static/images/content/portfolio/04.jpg",
+        "dataFilter": "paintings"
+      },
+      {
+        "src": "../static/images/content/portfolio/01.jpg",
+        "dataFilter": "mystery"
+      },
+      {
+        "src": "../static/images/content/portfolio/02.jpg",
+        "dataFilter": "illusion"
+      },
+      {
+        "src": "../static/images/content/portfolio/03.jpg",
+        "dataFilter": "travel"
+      },
+      {
+        "src": "../static/images/content/portfolio/04.jpg",
+        "dataFilter": "paintings"
+      },
+      {
+        "src": "../static/images/content/portfolio/01.jpg",
+        "dataFilter": "mystery"
+      },
+      {
+        "src": "../static/images/content/portfolio/02.jpg",
+        "dataFilter": "illusion"
+      },
+      {
+        "src": "../static/images/content/portfolio/03.jpg",
+        "dataFilter": "travel"
+      },
+      {
+        "src": "../static/images/content/portfolio/04.jpg",
+        "dataFilter": "paintings"
+      }
+    ]
+  },
+  "quotes": [
+    {
+      "icon": "../static/images/content/icons/quotes.png",
+      "text": "Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with love, grace & gratitude.",
+      "author": "Denis Waitley"
+    },
+    {
+      "icon": "../static/images/content/icons/quotes.png",
+      "text": "Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with love, grace & gratitude.",
+      "author": "Denis Waitley"
+    },
+    {
+      "icon": "../static/images/content/icons/quotes.png",
+      "text": "Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with love, grace & gratitude.",
+      "author": "Denis Waitley"
+    },
+    {
+      "icon": "../static/images/content/icons/quotes.png",
+      "text": "Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with love, grace & gratitude.",
+      "author": "Denis Waitley"
+    }
+  ],
+  "team": {
+    "title": "Team Members",
+    "text": "The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the.",
+    "slider": [
+      {
+        "image": "../static/images/content/team/01.png",
+        "name": "James Philly",
+        "position": "Lead Developer"
+      },
+      {
+        "image": "../static/images/content/team/02.png",
+        "name": "Cactus Jack",
+        "position": "3D Model Designer"
+      },
+      {
+        "image": "../static/images/content/team/03.png",
+        "name": "Jack Sparrow",
+        "position": "Master of All Trade"
+      },
+      {
+        "image": "../static/images/content/team/04.png",
+        "name": "Yaga Squarehead",
+        "position": "Manages Money"
+      },
+      {
+        "image": "../static/images/content/team/01.png",
+        "name": "James Philly",
+        "position": "Lead Developer"
+      },
+      {
+        "image": "../static/images/content/team/02.png",
+        "name": "Cactus Jack",
+        "position": "3D Model Designer"
+      },
+      {
+        "image": "../static/images/content/team/03.png",
+        "name": "Jack Sparrow",
+        "position": "Master of All Trade"
+      },
+      {
+        "image": "../static/images/content/team/04.png",
+        "name": "Yaga Squarehead",
+        "position": "Manages Money"
+      }
+    ]
+  },
+  "facts": {
+    "title": "Facts & Numbers",
+    "bg": "../static/images/common/facts_bg.jpg",
+    "statistic": [
+      { "title": "110", "excerpt": "successful projects" },
+      { "title": "25", "excerpt": "awesome clients" },
+      { "title": "30", "excerpt": "open source plugins" },
+      { "title": "13", "excerpt": "open source themes" }
+    ]
+  },
+  "blog": [
+    {
+      "preview": { "category": "Travel", "date": "21st March, 2014" },
+      "title": "A New Product Is Coming",
+      "text": "The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had never.",
+      "photo": "../static/images/content/blog/01.jpg"
+    },
+    {
+      "preview": { "category": "Gadget", "date": "3rd March, 2014" },
+      "title": "Jimmy’s New Xbox Controller",
+      "text": "The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had never.",
+      "photo": "../static/images/content/blog/02.jpg"
+    },
+    {
+      "preview": { "category": "Travel", "date": "21st March, 2014" },
+      "title": "A New Product Is Coming",
+      "text": "The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had never.",
+      "photo": "../static/images/content/blog/03.jpg"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Another Day In Paradise",
+      "footer": {
+        "category": "Travel",
+        "date": "21st March, 2014"
+      }
+    },
+    {
+      "title": "Jimmy’s New Book on Aliens",
+      "footer": {
+        "category": "Travel",
+        "date": "21st March, 2014"
+      }
+    },
+    {
+      "title": "Sarah’s New House",
+      "footer": {
+        "category": "Travel",
+        "date": "21st March, 2014"
+      }
+    },
+    {
+      "title": "Another Day In Paradise",
+      "footer": {
+        "category": "Travel",
+        "date": "21st March, 2014"
+      }
+    },
+    {
+      "title": "Jimmy’s New Book on Aliens",
+      "footer": {
+        "category": "Travel",
+        "date": "21st March, 2014"
+      }
+    },
+    {
+      "title": "Sarah’s New House",
+      "footer": {
+        "category": "Travel",
+        "date": "21st March, 2014"
+      }
+    }
+  ],
+  "twitter": [
+    {
+      "icon": "../static/images/content/icons/twitter.png",
+      "photo": "../static/images/content/articles/01.png",
+      "text": "Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with love, grace & gratitude.",
+      "link": {
+        "title": "@loveless",
+        "url": "#"
+      }
+    },
+    {
+      "icon": "../static/images/content/icons/twitter.png",
+      "photo": "../static/images/content/articles/02.png",
+      "text": "Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with love, grace & gratitude.",
+      "link": {
+        "title": "@loveless",
+        "url": "#"
+      }
+    },
+    {
+      "icon": "../static/images/content/icons/twitter.png",
+      "photo": "../static/images/content/articles/03.png",
+      "text": "Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with love, grace & gratitude.",
+      "link": {
+        "title": "@loveless",
+        "url": "#"
+      }
+    }
+  ],
+  "footer": {
+    "top": {
+      "form": {
+        "title": "unicorn",
+        "desc": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his"
+      },
+      "nav": [
+        {
+          "title": "links",
+          "links": [
+            { "title": "Home", "url": "#" },
+            { "title": "About", "url": "#" },
+            { "title": "Services", "url": "#" },
+            { "title": "Menu", "url": "#" },
+            { "title": "Restaurants", "url": "#" },
+            { "title": "Work Hours", "url": "#" },
+            { "title": "Call Hours", "url": "#" }
+          ]
+        },
+        {
+          "title": "friends",
+          "links": [
+            { "title": "Home", "url": "#" },
+            { "title": "About", "url": "#" },
+            { "title": "Services", "url": "#" },
+            { "title": "Menu", "url": "#" },
+            { "title": "Restaurants", "url": "#" }
+          ]
+        },
+        {
+          "title": "social",
+          "links": [
+            { "title": "Facebook", "url": "#" },
+            { "title": "Twitter", "url": "#" },
+            { "title": "Github", "url": "#" },
+            { "title": "Pinterest", "url": "#" },
+            { "title": "Google Plus", "url": "#" },
+            { "title": "Dribbble", "url": "#" },
+            { "title": "Flickr", "url": "#" },
+            { "title": "Others", "url": "#" }
+          ]
+        }
+      ]
+    },
+    "bottom": {
+      "left": {
+        "desc": "One morning, when Gregor Samsa woke from troubled dreams, he found",
+        "rights": "© 2015 Your Awesome Company"
+      },
+      "right": [
+        { "title": "TERMS", "url": "#" },
+        { "title": "Privacy Policy", "url": "#" },
+        { "title": "Contact", "url": "#" },
+        { "title": "Job", "url": "#" }
+      ]
+    }
+  }
+}

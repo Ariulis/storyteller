@@ -1,0 +1,11 @@
+{
+  "top": {
+    "logo": "unicorn",
+    "menuList": [
+      { "title": "home", "url": "#home" },
+      { "title": "about", "url": "#about" },
+      { "title": "stories", "url": "#stories" },
+      { "title": "hello", "url": "#hello" }
+    ]
+  }
+}

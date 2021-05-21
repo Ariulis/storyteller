@@ -1,0 +1,12 @@
+@import "utils/libs";
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/sprite";
+//@include sprites($spritesheet-sprites);
+
+main {
+  flex: 1;
+}
+
+//Модули
+@import "modules/modules";
