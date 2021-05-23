@@ -1,0 +1,20 @@
++b.HEADER.header
+    +e.bg.ibg
+        img(src= content.header.bg.src alt= content.header.bg.src)
+    +e.menu-wrapper
+        +b.NAV.top-menu.__menu
+            +e.A(href='#').logo= nav.top.logo 
+            +e.BUTTON.burger(aria-label='menu burger')
+                span 
+                span 
+                span 
+            +e.UL.list 
+                each item in nav.top.menuList 
+                    +e.LI.item 
+                        +e.A(href= item.url).link= item.title
+    +e.content-wrapper 
+        +b.top-content 
+            +e.H1.title= content.header.title 
+            +e.text= content.header.text
+            +e.A(href= content.header.link.url).btn
+                span= content.header.link.title

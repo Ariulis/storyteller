@@ -4,6 +4,25 @@
 &display=swap&subset=cyrillic-ext
 */
 
-@import url("https://fonts.googleapis.com/css?family=Heebo:regular&display=swap");
+@include font-face("icomoon", "./static/fonts/icomoon");
 
-// @include font-face("icomoon", "./static/fonts/icomoon");
+@include font-face(
+  "SourceSansPro",
+  "./static/fonts/sourcesanspro/SourceSansPro-Regular",
+  400
+);
+@include font-face(
+  "SourceSansPro",
+  "./static/fonts/sourcesanspro/SourceSansPro-SemiBold",
+  600
+);
+@include font-face(
+  "SourceSansPro",
+  "./static/fonts/sourcesanspro/SourceSansPro-Bold",
+  700
+);
+@include font-face(
+  "SourceSansPro",
+  "./static/fonts/sourcesanspro/SourceSansPro-Black",
+  900
+);
