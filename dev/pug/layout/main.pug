@@ -4,27 +4,27 @@ block variables
 
 doctype html
 html(lang="ru-RU")
-	head
-		meta(charset="utf-8")
-		title #{title}
-		<!--[if IE]>
-		meta(http-equiv='X-UA-Compatible' content="IE = edge")
-		<![endif]-->
-		meta(name="viewport" content="width=device-width,initial-scale=1")
-		meta(name="keywords" content="")
-		meta(name="description" content="Hello world!")
-		link(rel="shortcut icon" type="image/x-icon" href="static/images/favicon.ico")
-		style
-			include ../../static/styles/utils/start.css
-		//- script
-		//- 	include ../../static/js/modules/pagePreloader.js
-	body
-		//- include ../modules/pagePreloader
-		.wrapper
-			include ../modules/header/header
-			//- main
-			//- 	block content
-			//- include ../modules/footer/footer
-		block script
-			//- script(src="static/js/libs.js" async)
-			script(src="static/js/main.js" async)
+  head
+    meta(charset="utf-8")
+    title #{title}
+    <!--[if IE]>
+    meta(http-equiv='X-UA-Compatible' content="IE = edge")
+    <![endif]-->
+    meta(name="viewport" content="width=device-width,initial-scale=1")
+    meta(name="keywords" content="")
+    meta(name="description" content="Hello world!")
+    link(rel="shortcut icon" type="image/x-icon" href="static/images/favicon.ico")
+    style
+      include ../../static/styles/utils/start.css
+    //- script
+    //- 	include ../../static/js/modules/pagePreloader.js
+  body
+    //- include ../modules/pagePreloader
+    .wrapper
+      include ../modules/header/header
+      main
+        block content
+      include ../modules/footer/footer
+    block script
+      //- script(src="static/js/libs.js" async)
+      script(async name="scriptMain" src="static/js/main.js")

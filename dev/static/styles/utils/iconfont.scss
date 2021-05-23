@@ -13,15 +13,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-twit:before {
+.icon-broccoli:before {
   content: "\e900";
+  color: $colorPrimary;
 }
-.icon-insta:before {
+.icon-clock:before {
   content: "\e901";
+  color: $colorPrimary;
 }
-.icon-ld:before {
+.icon-land-working:before {
   content: "\e902";
+  color: $colorPrimary;
 }
-.icon-fb:before {
+.icon-vector:before {
   content: "\e903";
+  color: $colorPrimary;
 }

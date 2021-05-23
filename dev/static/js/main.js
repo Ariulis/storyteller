@@ -12,20 +12,26 @@ window.onload = function () {
   }
 };
 
-// styles connection
+// Constants
 
+const ibgElements = document.querySelectorAll(".ibg");
+const menuBurger = document.querySelector(".top-menu__burger");
+const menuList = document.querySelector(".top-menu__list");
+const menuWrapper = document.querySelector(".header__menu-wrapper");
+const menuLinks = document.querySelectorAll(".top-menu__list a");
 const headElement = document.head;
+const scriptMain = document.querySelector("script[name='scriptMain']");
 const stylesConnection = new IntersectionObserver(
   (entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         headElement.insertAdjacentHTML(
           "beforeend",
-          '<link rel="stylesheet" href="style.css">'
+          '<link rel="stylesheet" href="static/css/styles.css">'
         );
-        body.insertAdjacentHTML(
-          "beforeend",
-          '<script src="static/js/libs.js" /><script src="static/js/main.js" />'
+        scriptMain.insertAdjacentHTML(
+          "beforebegin",
+          '<script src="static/js/libs.js" />'
         );
         observer.unobserve(entry.target);
       }
@@ -35,14 +41,21 @@ const stylesConnection = new IntersectionObserver(
     threshold: 0.1,
   }
 );
+const sectionWho = document.querySelector(".who");
 
-// Constants
+// styles connection
 
-const ibgElements = document.querySelectorAll(".ibg");
-const menuBurger = document.querySelector(".top-menu__burger");
-const menuList = document.querySelector(".top-menu__list");
-const menuWrapper = document.querySelector(".header__menu-wrapper");
-const menuLinks = document.querySelectorAll(".top-menu__list a");
+stylesConnection.observe(sectionWho);
+
+// scroll
+
+window.addEventListener("scroll", function () {
+  if (window.pageYOffset > 50) {
+    menuWrapper.classList.add("fixed-menu");
+  } else {
+    menuWrapper.classList.remove("fixed-menu");
+  }
+});
 
 // menuburger
 
@@ -74,9 +87,9 @@ ibgElements.forEach((ibgElement) => {
 
 function ibg(ibgElement) {
   if (ibgElement.querySelector("img")) {
-    const src = ibgElement.querySelector("img").getAttribute("src");
+    const dataSrc = ibgElement.querySelector("img").dataset.src;
     if (ibgElement.querySelector("img")) {
-      ibgElement.style.backgroundImage = `url(${src})`;
+      ibgElement.style.backgroundImage = `url(${dataSrc})`;
     }
     if (ibgElement.parentElement.classList.contains("header")) {
       ibgElement.style.backgroundAttachment = "fixed";

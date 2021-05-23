@@ -36,9 +36,17 @@
     "yargs": "^15.3.1"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bemto.pug": "^2.1.0",
     "custom-select": "^1.1.15",
+    "fslightbox": "^3.2.3",
     "inputmask": "^5.0.5",
-    "smooth-scrollbar": "^8.6.1"
+    "jquery": "^3.6.0",
+    "just-validate": "^1.5.0",
+    "minibarjs": "^0.5.1",
+    "nouislider": "^14.6.3",
+    "smooth-scrollbar": "^8.6.1",
+    "svg4everybody": "^2.1.9",
+    "swiper": "^6.5.0"
   }
 }

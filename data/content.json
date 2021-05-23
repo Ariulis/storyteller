@@ -1,8 +1,8 @@
 {
   "header": {
     "bg": {
-      "src": "../static/images/common/top_bg_large.jpg",
-      "srcset": "../static/images/common/top_bg_large.jpg, ../static/images/common/top_bg_medium.jpg, ../static/images/common/top_bg_small.jpg",
+      "src": "../static/images/common/top_bg_small.jpg",
+      "dataSrc": "../static/images/common/top_bg_large.jpg",
       "alt": "header bg image"
     },
     "title": "storyteller",
