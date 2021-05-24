@@ -4,7 +4,17 @@
 &display=swap&subset=cyrillic-ext
 */
 
-@include font-face("icomoon", "./static/fonts/iconsfont/icomoon");
+@include font-face(
+  "SourceSansPro",
+  "./static/fonts/sourcesanspro/SourceSansPro-Bold",
+  700
+);
+
+@include font-face(
+  "SourceSansPro",
+  "./static/fonts/sourcesanspro/SourceSansPro-Black",
+  900
+);
 
 @include font-face(
   "SourceSansPro",
@@ -16,13 +26,5 @@
   "./static/fonts/sourcesanspro/SourceSansPro-SemiBold",
   600
 );
-@include font-face(
-  "SourceSansPro",
-  "./static/fonts/sourcesanspro/SourceSansPro-Bold",
-  700
-);
-@include font-face(
-  "SourceSansPro",
-  "./static/fonts/sourcesanspro/SourceSansPro-Black",
-  900
-);
+
+@include font-face("icomoon", "./static/fonts/iconsfont/icomoon");

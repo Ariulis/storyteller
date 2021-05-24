@@ -60,7 +60,10 @@ body {
     z-index: 10;
   }
   &__content-wrapper {
-    @extend %container;
+    margin: 0 auto;
+    max-width: $content;
+    padding: 0 15px;
+    width: 100%;
     min-height: inherit;
     position: relative;
     display: flex;
@@ -85,7 +88,10 @@ body {
   }
 }
 .top-menu {
-  @extend %container;
+  margin: 0 auto;
+  max-width: $content;
+  padding: 0 15px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,6 +110,8 @@ body {
       max-width: 500px;
       display: flex;
       flex-wrap: wrap;
+      position: relative;
+      z-index: 1;
       & > li {
         &:not(:first-child) {
           margin-left: 20px;

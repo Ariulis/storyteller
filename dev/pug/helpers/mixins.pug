@@ -9,8 +9,8 @@ mixin icon(name,mod)
 mixin sectionTitle(title, text, icon = false)
     +b.section-title
         if icon 
-            +e.I(class=`icon ${icon}` aria-label='section icon')
-            +e.title= title
+            +e.I(class=`icon ${icon}`)
+            +e.H2.title= title
             +e.text= text
         else
             +e.title= title

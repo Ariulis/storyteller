@@ -20,7 +20,7 @@ const menuList = document.querySelector(".top-menu__list");
 const menuWrapper = document.querySelector(".header__menu-wrapper");
 const menuLinks = document.querySelectorAll(".top-menu__list a");
 const headElement = document.head;
-const scriptMain = document.querySelector("script[name='scriptMain']");
+const scriptMain = document.querySelector("script[src*='main.js']");
 const stylesConnection = new IntersectionObserver(
   (entries, observer) => {
     entries.forEach((entry) => {

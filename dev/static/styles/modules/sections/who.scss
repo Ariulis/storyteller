@@ -1,18 +1,18 @@
 .who {
-  @extend %section-padding;
+  @include adaptive-value("padding-top", 100, 50);
+  @include adaptive-value("padding-bottom", 110, 50);
   .section-title {
     padding: 0 15px;
   }
-}
-%section-padding {
-  @include adaptive-value("padding-top", 100, 50);
-  @include adaptive-value("padding-bottom", 110, 50);
 }
 .section-title {
   max-width: 965px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   &__icon {
     font-size: 35px;
     margin-bottom: 20px;
@@ -22,6 +22,7 @@
     font-size: 27px;
     @include adaptive-value("margin-bottom", 73, 36);
     font-weight: 700;
+    flex: 1;
   }
   &__text {
     line-height: 1.9;
